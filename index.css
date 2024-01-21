@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+}
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    overflow: hidden;
+}
+
+#timer-on{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+#timer-off{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+#timer-reset{
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+#on{
+    font-size: 10px;
+}
+#title{
+    text-align: center;
+    font-size: 40px;
+}
+#timeDescription{
+    font-size: 15px;
+    margin-top: 30px;
+}
